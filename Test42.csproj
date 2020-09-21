@@ -1,11 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
-
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>2dc8a365-a9a8-43de-845e-27b9768d1d79</UserSecretsId>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="CodeKoenig.AspNetCore.Identity.DocumentDb" Version="3.0.0" />
+    <PackageReference Include="CodeKoenig.AspNetCore.Identity.DocumentDb" Version="3.0.0"/>
+    <PackageReference Include="Microsoft.AspNet.Identity.Owin" Version="2.2.3"/>
   </ItemGroup>
-
 </Project>
